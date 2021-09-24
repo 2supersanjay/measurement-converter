@@ -1,15 +1,16 @@
 name = ('inches converter')
-inches = 12
-centimeters = (inches*2.54)
-feet = (inches/12)
+inches = int(input('Enter Inches'))
+
+if inches >= 0:
+    centimeters = (inches*2.54)
+    feet = (inches/12)
 
 print(name)
-print("inches:")
-print(inches)
+print(' ')
 
 print('centimeters')
 print(centimeters)
-
+print(' ')
 print('feet')
 print(feet)
 
